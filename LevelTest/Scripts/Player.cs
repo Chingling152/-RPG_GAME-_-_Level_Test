@@ -52,6 +52,7 @@ namespace LevelTest.Scripts
             vigor = 1;
             magia = 1;
             xp = 0;
+            Influencias();
         }
         
     }

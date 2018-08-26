@@ -51,29 +51,32 @@
             this.lbl_P_DMG_M = new System.Windows.Forms.Label();
             this.lbl_P_DMG_V = new System.Windows.Forms.Label();
             this.lbl_P_DMG_R = new System.Windows.Forms.Label();
-            this.lbl_DMG_FG = new System.Windows.Forms.Label();
-            this.lbl_DMG_F = new System.Windows.Forms.Label();
+            this.lbl_P_DMG_FG = new System.Windows.Forms.Label();
+            this.lbl_P_DMG_F = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.lbl_DEF_M = new System.Windows.Forms.Label();
-            this.lbl_DEF_V = new System.Windows.Forms.Label();
-            this.lbl_DEF_R = new System.Windows.Forms.Label();
-            this.lbl_DEF_FG = new System.Windows.Forms.Label();
-            this.lbl_DEF_F = new System.Windows.Forms.Label();
+            this.lbl_P_DEF_M = new System.Windows.Forms.Label();
+            this.lbl_P_DEF_V = new System.Windows.Forms.Label();
+            this.lbl_P_DEF_R = new System.Windows.Forms.Label();
+            this.lbl_P_DEF_FG = new System.Windows.Forms.Label();
+            this.lbl_P_DEF_F = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.lbl_PNV = new System.Windows.Forms.Label();
+            this.lbl_P_XP = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_PN
             // 
             this.lbl_PN.AutoSize = true;
-            this.lbl_PN.Location = new System.Drawing.Point(210, 53);
+            this.lbl_PN.Location = new System.Drawing.Point(86, 55);
             this.lbl_PN.Name = "lbl_PN";
             this.lbl_PN.Size = new System.Drawing.Size(74, 26);
             this.lbl_PN.TabIndex = 0;
@@ -277,23 +280,23 @@
             this.lbl_P_DMG_R.TabIndex = 28;
             this.lbl_P_DMG_R.Text = "[DR]";
             // 
-            // lbl_DMG_FG
+            // lbl_P_DMG_FG
             // 
-            this.lbl_DMG_FG.AutoSize = true;
-            this.lbl_DMG_FG.Location = new System.Drawing.Point(455, 123);
-            this.lbl_DMG_FG.Name = "lbl_DMG_FG";
-            this.lbl_DMG_FG.Size = new System.Drawing.Size(73, 26);
-            this.lbl_DMG_FG.TabIndex = 27;
-            this.lbl_DMG_FG.Text = "[DFG]";
+            this.lbl_P_DMG_FG.AutoSize = true;
+            this.lbl_P_DMG_FG.Location = new System.Drawing.Point(455, 123);
+            this.lbl_P_DMG_FG.Name = "lbl_P_DMG_FG";
+            this.lbl_P_DMG_FG.Size = new System.Drawing.Size(73, 26);
+            this.lbl_P_DMG_FG.TabIndex = 27;
+            this.lbl_P_DMG_FG.Text = "[DFG]";
             // 
-            // lbl_DMG_F
+            // lbl_P_DMG_F
             // 
-            this.lbl_DMG_F.AutoSize = true;
-            this.lbl_DMG_F.Location = new System.Drawing.Point(455, 97);
-            this.lbl_DMG_F.Name = "lbl_DMG_F";
-            this.lbl_DMG_F.Size = new System.Drawing.Size(70, 26);
-            this.lbl_DMG_F.TabIndex = 26;
-            this.lbl_DMG_F.Text = "[DFS]";
+            this.lbl_P_DMG_F.AutoSize = true;
+            this.lbl_P_DMG_F.Location = new System.Drawing.Point(455, 97);
+            this.lbl_P_DMG_F.Name = "lbl_P_DMG_F";
+            this.lbl_P_DMG_F.Size = new System.Drawing.Size(70, 26);
+            this.lbl_P_DMG_F.TabIndex = 26;
+            this.lbl_P_DMG_F.Text = "[DFS]";
             // 
             // label12
             // 
@@ -340,50 +343,50 @@
             this.label16.TabIndex = 21;
             this.label16.Text = "Dano Fisico :";
             // 
-            // lbl_DEF_M
+            // lbl_P_DEF_M
             // 
-            this.lbl_DEF_M.AutoSize = true;
-            this.lbl_DEF_M.Location = new System.Drawing.Point(453, 344);
-            this.lbl_DEF_M.Name = "lbl_DEF_M";
-            this.lbl_DEF_M.Size = new System.Drawing.Size(74, 26);
-            this.lbl_DEF_M.TabIndex = 40;
-            this.lbl_DEF_M.Text = "[DFM]";
+            this.lbl_P_DEF_M.AutoSize = true;
+            this.lbl_P_DEF_M.Location = new System.Drawing.Point(453, 344);
+            this.lbl_P_DEF_M.Name = "lbl_P_DEF_M";
+            this.lbl_P_DEF_M.Size = new System.Drawing.Size(74, 26);
+            this.lbl_P_DEF_M.TabIndex = 40;
+            this.lbl_P_DEF_M.Text = "[DFM]";
             // 
-            // lbl_DEF_V
+            // lbl_P_DEF_V
             // 
-            this.lbl_DEF_V.AutoSize = true;
-            this.lbl_DEF_V.Location = new System.Drawing.Point(454, 318);
-            this.lbl_DEF_V.Name = "lbl_DEF_V";
-            this.lbl_DEF_V.Size = new System.Drawing.Size(70, 26);
-            this.lbl_DEF_V.TabIndex = 39;
-            this.lbl_DEF_V.Text = "[DFV]";
+            this.lbl_P_DEF_V.AutoSize = true;
+            this.lbl_P_DEF_V.Location = new System.Drawing.Point(454, 318);
+            this.lbl_P_DEF_V.Name = "lbl_P_DEF_V";
+            this.lbl_P_DEF_V.Size = new System.Drawing.Size(70, 26);
+            this.lbl_P_DEF_V.TabIndex = 39;
+            this.lbl_P_DEF_V.Text = "[DFV]";
             // 
-            // lbl_DEF_R
+            // lbl_P_DEF_R
             // 
-            this.lbl_DEF_R.AutoSize = true;
-            this.lbl_DEF_R.Location = new System.Drawing.Point(454, 292);
-            this.lbl_DEF_R.Name = "lbl_DEF_R";
-            this.lbl_DEF_R.Size = new System.Drawing.Size(72, 26);
-            this.lbl_DEF_R.TabIndex = 38;
-            this.lbl_DEF_R.Text = "[DFR]";
+            this.lbl_P_DEF_R.AutoSize = true;
+            this.lbl_P_DEF_R.Location = new System.Drawing.Point(454, 292);
+            this.lbl_P_DEF_R.Name = "lbl_P_DEF_R";
+            this.lbl_P_DEF_R.Size = new System.Drawing.Size(72, 26);
+            this.lbl_P_DEF_R.TabIndex = 38;
+            this.lbl_P_DEF_R.Text = "[DFR]";
             // 
-            // lbl_DEF_FG
+            // lbl_P_DEF_FG
             // 
-            this.lbl_DEF_FG.AutoSize = true;
-            this.lbl_DEF_FG.Location = new System.Drawing.Point(454, 266);
-            this.lbl_DEF_FG.Name = "lbl_DEF_FG";
-            this.lbl_DEF_FG.Size = new System.Drawing.Size(87, 26);
-            this.lbl_DEF_FG.TabIndex = 37;
-            this.lbl_DEF_FG.Text = "[DFFG]";
+            this.lbl_P_DEF_FG.AutoSize = true;
+            this.lbl_P_DEF_FG.Location = new System.Drawing.Point(454, 266);
+            this.lbl_P_DEF_FG.Name = "lbl_P_DEF_FG";
+            this.lbl_P_DEF_FG.Size = new System.Drawing.Size(87, 26);
+            this.lbl_P_DEF_FG.TabIndex = 37;
+            this.lbl_P_DEF_FG.Text = "[DFFG]";
             // 
-            // lbl_DEF_F
+            // lbl_P_DEF_F
             // 
-            this.lbl_DEF_F.AutoSize = true;
-            this.lbl_DEF_F.Location = new System.Drawing.Point(454, 240);
-            this.lbl_DEF_F.Name = "lbl_DEF_F";
-            this.lbl_DEF_F.Size = new System.Drawing.Size(84, 26);
-            this.lbl_DEF_F.TabIndex = 36;
-            this.lbl_DEF_F.Text = "[DFFS]";
+            this.lbl_P_DEF_F.AutoSize = true;
+            this.lbl_P_DEF_F.Location = new System.Drawing.Point(454, 240);
+            this.lbl_P_DEF_F.Name = "lbl_P_DEF_F";
+            this.lbl_P_DEF_F.Size = new System.Drawing.Size(84, 26);
+            this.lbl_P_DEF_F.TabIndex = 36;
+            this.lbl_P_DEF_F.Text = "[DFFS]";
             // 
             // label6
             // 
@@ -430,16 +433,46 @@
             this.label19.TabIndex = 31;
             this.label19.Text = "Defesa Fisica :";
             // 
+            // lbl_PNV
+            // 
+            this.lbl_PNV.AutoSize = true;
+            this.lbl_PNV.Location = new System.Drawing.Point(159, 55);
+            this.lbl_PNV.Name = "lbl_PNV";
+            this.lbl_PNV.Size = new System.Drawing.Size(56, 26);
+            this.lbl_PNV.TabIndex = 41;
+            this.lbl_PNV.Text = "[NV]";
+            // 
+            // lbl_P_XP
+            // 
+            this.lbl_P_XP.AutoSize = true;
+            this.lbl_P_XP.Location = new System.Drawing.Point(455, 55);
+            this.lbl_P_XP.Name = "lbl_P_XP";
+            this.lbl_P_XP.Size = new System.Drawing.Size(54, 26);
+            this.lbl_P_XP.TabIndex = 43;
+            this.lbl_P_XP.Text = "[XP]";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(306, 55);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(143, 26);
+            this.label2.TabIndex = 42;
+            this.label2.Text = "Experiencia :";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 387);
-            this.Controls.Add(this.lbl_DEF_M);
-            this.Controls.Add(this.lbl_DEF_V);
-            this.Controls.Add(this.lbl_DEF_R);
-            this.Controls.Add(this.lbl_DEF_FG);
-            this.Controls.Add(this.lbl_DEF_F);
+            this.ClientSize = new System.Drawing.Size(577, 455);
+            this.Controls.Add(this.lbl_P_XP);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_PNV);
+            this.Controls.Add(this.lbl_P_DEF_M);
+            this.Controls.Add(this.lbl_P_DEF_V);
+            this.Controls.Add(this.lbl_P_DEF_R);
+            this.Controls.Add(this.lbl_P_DEF_FG);
+            this.Controls.Add(this.lbl_P_DEF_F);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label17);
@@ -448,8 +481,8 @@
             this.Controls.Add(this.lbl_P_DMG_M);
             this.Controls.Add(this.lbl_P_DMG_V);
             this.Controls.Add(this.lbl_P_DMG_R);
-            this.Controls.Add(this.lbl_DMG_FG);
-            this.Controls.Add(this.lbl_DMG_F);
+            this.Controls.Add(this.lbl_P_DMG_FG);
+            this.Controls.Add(this.lbl_P_DMG_F);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
@@ -478,7 +511,7 @@
             this.Font = new System.Drawing.Font("Arial", 12.17647F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Form1";
-            this.Text = "Form 1";
+            this.Text = "LevelTest";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -510,23 +543,26 @@
         private System.Windows.Forms.Label lbl_P_DMG_M;
         private System.Windows.Forms.Label lbl_P_DMG_V;
         private System.Windows.Forms.Label lbl_P_DMG_R;
-        private System.Windows.Forms.Label lbl_DMG_FG;
-        private System.Windows.Forms.Label lbl_DMG_F;
+        private System.Windows.Forms.Label lbl_P_DMG_FG;
+        private System.Windows.Forms.Label lbl_P_DMG_F;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label lbl_DEF_M;
-        private System.Windows.Forms.Label lbl_DEF_V;
-        private System.Windows.Forms.Label lbl_DEF_R;
-        private System.Windows.Forms.Label lbl_DEF_FG;
-        private System.Windows.Forms.Label lbl_DEF_F;
+        private System.Windows.Forms.Label lbl_P_DEF_M;
+        private System.Windows.Forms.Label lbl_P_DEF_V;
+        private System.Windows.Forms.Label lbl_P_DEF_R;
+        private System.Windows.Forms.Label lbl_P_DEF_FG;
+        private System.Windows.Forms.Label lbl_P_DEF_F;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lbl_PNV;
+        private System.Windows.Forms.Label lbl_P_XP;
+        private System.Windows.Forms.Label label2;
     }
 }
 
