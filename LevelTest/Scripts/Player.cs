@@ -18,6 +18,19 @@ namespace LevelTest.Scripts
         public int nivel;
         public int xp;
 
+        public int xpcap;
+
+        public int XpCap {
+            get {
+                while (xp > xpcap) {
+                    xp-=xpcap;
+                    nivel++;
+                    xpcap += (int)Math.Floor(xpcap * 0.10f);
+                }              
+                return xpcap;
+           }
+        }
+
         //influencia da skill
         public void Influencias() { // 1 = influencia
             hp = (200 * 1) * (vigor * 0.25f);       
@@ -52,6 +65,7 @@ namespace LevelTest.Scripts
             vigor = 1;
             magia = 1;
             xp = 0;
+            xpcap = 100 * nivel;
             Influencias();
         }
         

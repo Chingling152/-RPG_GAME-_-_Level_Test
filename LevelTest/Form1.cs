@@ -27,8 +27,9 @@ namespace LevelTest
         }
 
         public void PrintIt() {
-            lbl_PNV.Text = player.nivel.ToString();
             lbl_P_XP.Text = player.xp.ToString();
+            lbl_N_P_XP.Text = player.XpCap.ToString();
+            lbl_PNV.Text = player.nivel.ToString();
 
             lbl_PF_.Text = player.forca.ToString();
             lbl_PD_.Text = player.destreza.ToString();
@@ -52,6 +53,24 @@ namespace LevelTest
             lbl_P_DEF_R.Text = player.defesaraio.ToString();
             lbl_P_DEF_V.Text = player.defesaveneno.ToString();
             lbl_P_DEF_M.Text = player.defesamagica.ToString();
-        } 
+        }
+
+        private void Btn_mais_xp_Click(object sender, EventArgs e)
+        {
+            int.TryParse(txt_xp_inc.Text, out int xp);
+            player.xp += xp;
+
+            PrintIt();
+        }
+
+        private void Btn_menos_xp_Click(object sender, EventArgs e)
+        {
+            int.TryParse(txt_xp_inc.Text, out int xp);
+            if (player.xp > xp) {
+                player.xp -= xp;
+            }
+
+            PrintIt();
+        }
     }
 }
