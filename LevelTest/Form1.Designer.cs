@@ -77,12 +77,24 @@
             this.txt_xp_inc = new System.Windows.Forms.TextBox();
             this.lbl_N_P_XP = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btn_mais_for = new System.Windows.Forms.Button();
+            this.btn_menos_for = new System.Windows.Forms.Button();
+            this.btn_mais_dex = new System.Windows.Forms.Button();
+            this.btn_menos_dex = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.lbl_PPTS = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_PN
             // 
             this.lbl_PN.AutoSize = true;
-            this.lbl_PN.Location = new System.Drawing.Point(652, 49);
+            this.lbl_PN.Location = new System.Drawing.Point(652, 36);
             this.lbl_PN.Name = "lbl_PN";
             this.lbl_PN.Size = new System.Drawing.Size(74, 26);
             this.lbl_PN.TabIndex = 0;
@@ -109,7 +121,7 @@
             // lbl_PD
             // 
             this.lbl_PD.AutoSize = true;
-            this.lbl_PD.Location = new System.Drawing.Point(32, 55);
+            this.lbl_PD.Location = new System.Drawing.Point(32, 61);
             this.lbl_PD.Name = "lbl_PD";
             this.lbl_PD.Size = new System.Drawing.Size(117, 26);
             this.lbl_PD.TabIndex = 3;
@@ -118,7 +130,7 @@
             // lbl_R
             // 
             this.lbl_R.AutoSize = true;
-            this.lbl_R.Location = new System.Drawing.Point(5, 81);
+            this.lbl_R.Location = new System.Drawing.Point(3, 93);
             this.lbl_R.Name = "lbl_R";
             this.lbl_R.Size = new System.Drawing.Size(144, 26);
             this.lbl_R.TabIndex = 4;
@@ -127,7 +139,7 @@
             // lbl_PV
             // 
             this.lbl_PV.AutoSize = true;
-            this.lbl_PV.Location = new System.Drawing.Point(72, 107);
+            this.lbl_PV.Location = new System.Drawing.Point(72, 119);
             this.lbl_PV.Name = "lbl_PV";
             this.lbl_PV.Size = new System.Drawing.Size(77, 26);
             this.lbl_PV.TabIndex = 5;
@@ -136,7 +148,7 @@
             // lbl_PM
             // 
             this.lbl_PM.AutoSize = true;
-            this.lbl_PM.Location = new System.Drawing.Point(63, 133);
+            this.lbl_PM.Location = new System.Drawing.Point(63, 149);
             this.lbl_PM.Name = "lbl_PM";
             this.lbl_PM.Size = new System.Drawing.Size(86, 26);
             this.lbl_PM.TabIndex = 6;
@@ -154,7 +166,7 @@
             // lbl_PD_
             // 
             this.lbl_PD_.AutoSize = true;
-            this.lbl_PD_.Location = new System.Drawing.Point(155, 55);
+            this.lbl_PD_.Location = new System.Drawing.Point(155, 61);
             this.lbl_PD_.Name = "lbl_PD_";
             this.lbl_PD_.Size = new System.Drawing.Size(41, 26);
             this.lbl_PD_.TabIndex = 8;
@@ -163,7 +175,7 @@
             // lbl_PV_
             // 
             this.lbl_PV_.AutoSize = true;
-            this.lbl_PV_.Location = new System.Drawing.Point(155, 107);
+            this.lbl_PV_.Location = new System.Drawing.Point(155, 119);
             this.lbl_PV_.Name = "lbl_PV_";
             this.lbl_PV_.Size = new System.Drawing.Size(39, 26);
             this.lbl_PV_.TabIndex = 10;
@@ -172,7 +184,7 @@
             // lbl_PR_
             // 
             this.lbl_PR_.AutoSize = true;
-            this.lbl_PR_.Location = new System.Drawing.Point(155, 81);
+            this.lbl_PR_.Location = new System.Drawing.Point(153, 93);
             this.lbl_PR_.Name = "lbl_PR_";
             this.lbl_PR_.Size = new System.Drawing.Size(41, 26);
             this.lbl_PR_.TabIndex = 9;
@@ -181,7 +193,7 @@
             // lbl_PM_
             // 
             this.lbl_PM_.AutoSize = true;
-            this.lbl_PM_.Location = new System.Drawing.Point(154, 133);
+            this.lbl_PM_.Location = new System.Drawing.Point(154, 149);
             this.lbl_PM_.Name = "lbl_PM_";
             this.lbl_PM_.Size = new System.Drawing.Size(43, 26);
             this.lbl_PM_.TabIndex = 11;
@@ -226,7 +238,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(72, 187);
+            this.label7.Location = new System.Drawing.Point(78, 187);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(75, 26);
             this.label7.TabIndex = 15;
@@ -442,7 +454,7 @@
             // lbl_PNV
             // 
             this.lbl_PNV.AutoSize = true;
-            this.lbl_PNV.Location = new System.Drawing.Point(725, 49);
+            this.lbl_PNV.Location = new System.Drawing.Point(725, 36);
             this.lbl_PNV.Name = "lbl_PNV";
             this.lbl_PNV.Size = new System.Drawing.Size(56, 26);
             this.lbl_PNV.TabIndex = 41;
@@ -500,9 +512,9 @@
             // txt_xp_inc
             // 
             this.txt_xp_inc.Location = new System.Drawing.Point(607, 103);
-            this.txt_xp_inc.MaxLength = 4;
+            this.txt_xp_inc.MaxLength = 6;
             this.txt_xp_inc.Name = "txt_xp_inc";
-            this.txt_xp_inc.Size = new System.Drawing.Size(96, 34);
+            this.txt_xp_inc.Size = new System.Drawing.Size(97, 34);
             this.txt_xp_inc.TabIndex = 47;
             // 
             // lbl_N_P_XP
@@ -523,11 +535,143 @@
             this.label4.TabIndex = 48;
             this.label4.Text = "Experiencia \r\npara o proximo \r\nnivel";
             // 
+            // btn_mais_for
+            // 
+            this.btn_mais_for.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.btn_mais_for.Location = new System.Drawing.Point(232, 29);
+            this.btn_mais_for.Name = "btn_mais_for";
+            this.btn_mais_for.Size = new System.Drawing.Size(27, 26);
+            this.btn_mais_for.TabIndex = 51;
+            this.btn_mais_for.Text = "+";
+            this.btn_mais_for.UseVisualStyleBackColor = true;
+            this.btn_mais_for.Click += new System.EventHandler(this.Btn_mais_for_Click);
+            // 
+            // btn_menos_for
+            // 
+            this.btn_menos_for.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.btn_menos_for.Location = new System.Drawing.Point(199, 29);
+            this.btn_menos_for.Name = "btn_menos_for";
+            this.btn_menos_for.Size = new System.Drawing.Size(27, 26);
+            this.btn_menos_for.TabIndex = 50;
+            this.btn_menos_for.Text = "-";
+            this.btn_menos_for.UseVisualStyleBackColor = true;
+            this.btn_menos_for.Click += new System.EventHandler(this.btn_menos_for_Click);
+            // 
+            // btn_mais_dex
+            // 
+            this.btn_mais_dex.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.btn_mais_dex.Location = new System.Drawing.Point(232, 61);
+            this.btn_mais_dex.Name = "btn_mais_dex";
+            this.btn_mais_dex.Size = new System.Drawing.Size(27, 26);
+            this.btn_mais_dex.TabIndex = 53;
+            this.btn_mais_dex.Text = "+";
+            this.btn_mais_dex.UseVisualStyleBackColor = true;
+            // 
+            // btn_menos_dex
+            // 
+            this.btn_menos_dex.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.btn_menos_dex.Location = new System.Drawing.Point(199, 61);
+            this.btn_menos_dex.Name = "btn_menos_dex";
+            this.btn_menos_dex.Size = new System.Drawing.Size(27, 26);
+            this.btn_menos_dex.TabIndex = 52;
+            this.btn_menos_dex.Text = "-";
+            this.btn_menos_dex.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.button5.Location = new System.Drawing.Point(232, 93);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(27, 26);
+            this.button5.TabIndex = 55;
+            this.button5.Text = "+";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.button6.Location = new System.Drawing.Point(199, 93);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(27, 26);
+            this.button6.TabIndex = 54;
+            this.button6.Text = "-";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.button7.Location = new System.Drawing.Point(232, 121);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(27, 26);
+            this.button7.TabIndex = 57;
+            this.button7.Text = "+";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.button8.Location = new System.Drawing.Point(199, 121);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(27, 26);
+            this.button8.TabIndex = 56;
+            this.button8.Text = "-";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.button9.Location = new System.Drawing.Point(232, 151);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(27, 26);
+            this.button9.TabIndex = 59;
+            this.button9.Text = "+";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Arial", 9.17647F);
+            this.button10.Location = new System.Drawing.Point(199, 151);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(27, 26);
+            this.button10.TabIndex = 58;
+            this.button10.Text = "-";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // lbl_PPTS
+            // 
+            this.lbl_PPTS.AutoSize = true;
+            this.lbl_PPTS.Location = new System.Drawing.Point(725, 62);
+            this.lbl_PPTS.Name = "lbl_PPTS";
+            this.lbl_PPTS.Size = new System.Drawing.Size(56, 26);
+            this.lbl_PPTS.TabIndex = 61;
+            this.lbl_PPTS.Text = "[NV]";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(557, 62);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(163, 26);
+            this.label5.TabIndex = 60;
+            this.label5.Text = "Pontos de hab.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(846, 318);
+            this.Controls.Add(this.lbl_PPTS);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.btn_mais_dex);
+            this.Controls.Add(this.btn_menos_dex);
+            this.Controls.Add(this.btn_mais_for);
+            this.Controls.Add(this.btn_menos_for);
             this.Controls.Add(this.lbl_N_P_XP);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txt_xp_inc);
@@ -638,6 +782,18 @@
         private System.Windows.Forms.TextBox txt_xp_inc;
         private System.Windows.Forms.Label lbl_N_P_XP;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btn_mais_for;
+        private System.Windows.Forms.Button btn_menos_for;
+        private System.Windows.Forms.Button btn_mais_dex;
+        private System.Windows.Forms.Button btn_menos_dex;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label lbl_PPTS;
+        private System.Windows.Forms.Label label5;
     }
 }
 

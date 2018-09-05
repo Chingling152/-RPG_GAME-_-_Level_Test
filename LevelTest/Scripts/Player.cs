@@ -16,6 +16,7 @@ namespace LevelTest.Scripts
         public float defesafisica, defesafogo, defesaraio, defesaveneno, defesamagica;//DEFESA
 
         public int nivel;
+        public int pts;
         public int xp;
 
         public int xpcap;
@@ -23,9 +24,14 @@ namespace LevelTest.Scripts
         public int XpCap {
             get {
                 while (xp > xpcap) {
-                    xp-=xpcap;
-                    nivel++;
-                    xpcap += (int)Math.Floor(xpcap * 0.10f);
+                    if(nivel < 500) {
+                        xp-=xpcap;
+                        pts ++;
+                        xpcap += (int)Math.Floor(xpcap * 0.10f);
+                    }
+                    else {
+                        System.Windows.Forms.MessageBox.Show("Nivel maximo atingido");                   
+                    }
                 }              
                 return xpcap;
            }
@@ -65,6 +71,7 @@ namespace LevelTest.Scripts
             vigor = 1;
             magia = 1;
             xp = 0;
+            pts = 0;
             xpcap = 100 * nivel;
             Influencias();
         }

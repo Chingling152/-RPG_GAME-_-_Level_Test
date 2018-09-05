@@ -29,7 +29,9 @@ namespace LevelTest
         public void PrintIt() {
             lbl_P_XP.Text = player.xp.ToString();
             lbl_N_P_XP.Text = player.XpCap.ToString();
+
             lbl_PNV.Text = player.nivel.ToString();
+            lbl_PPTS.Text = player.pts.ToString();
 
             lbl_PF_.Text = player.forca.ToString();
             lbl_PD_.Text = player.destreza.ToString();
@@ -55,6 +57,73 @@ namespace LevelTest
             lbl_P_DEF_M.Text = player.defesamagica.ToString();
         }
 
+        public void Level(bool mais , int t) {
+            if (mais) {
+                switch (t)
+                {
+                    case 1:
+                        if(player.forca < 100) {
+                            player.forca++;
+                        }
+                        break;
+                    case 2:
+                        if (player.destreza < 100){
+                            player.destreza++;
+                        }
+                        break;
+                    case 3:
+                        if (player.resistencia < 100){
+                            player.resistencia++;
+                        }
+                        break;
+                    case 4:
+                        if (player.vigor < 100){
+                            player.vigor++;
+                        }
+                        break;
+                    case 5:
+                        if (player.magia < 100){
+                            player.magia++;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else {
+                switch (t){
+                    case 1:
+                        if(player.forca > 1) {
+                            player.forca--;
+                        }
+                        break;
+                    case 2:
+                        if (player.destreza > 1){
+                            player.destreza--;
+                        }
+                        break;
+                    case 3:
+                        if (player.resistencia > 1){
+                            player.resistencia--;
+                        }
+                        break;
+                    case 4:
+                        if (player.vigor > 1){
+                            player.vigor--;
+                        }
+                        break;
+                    case 5:
+                        if (player.magia > 1){
+                            player.magia--;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+            PrintIt();
+        }
+
         private void Btn_mais_xp_Click(object sender, EventArgs e)
         {
             int.TryParse(txt_xp_inc.Text, out int xp);
@@ -71,6 +140,16 @@ namespace LevelTest
             }
 
             PrintIt();
+        }
+
+        private void Btn_mais_for_Click(object sender, EventArgs e)
+        {
+            Level(true , 1);
+        }
+
+        private void btn_menos_for_Click(object sender, EventArgs e)
+        {
+            Level(false , 1);
         }
     }
 }
