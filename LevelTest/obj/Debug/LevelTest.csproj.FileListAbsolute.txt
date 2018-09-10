@@ -1,10 +1,14 @@
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\bin\Debug\LevelTest.exe.config
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\bin\Debug\LevelTest.exe
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\bin\Debug\LevelTest.pdb
-F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.csprojResolveAssemblyReference.cache
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.Form1.resources
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.Properties.Resources.resources
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.csproj.GenerateResource.Cache
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.csproj.CoreCompileInputs.cache
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.exe
 F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.pdb
+F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.csprojAssemblyReference.cache
+F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\bin\Debug\LevelTest.exe.manifest
+F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\bin\Debug\LevelTest.application
+F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.exe.manifest
+F:\o\Jogos\Outros\Meus Projetos\Level Test\LevelTest\obj\Debug\LevelTest.application

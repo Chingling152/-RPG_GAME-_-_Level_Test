@@ -23,16 +23,17 @@ namespace LevelTest.Scripts
 
         public int XpCap {
             get {
-                while (xp > xpcap) {
-                    if(nivel < 500) {
+                while (xp >= xpcap) {
+                    if(nivel < 500 && pts < 500) {
                         xp-=xpcap;
                         pts ++;
-                        xpcap += (int)Math.Floor(xpcap * 0.10f);
+                        xpcap += (int)Math.Round(xpcap * 0.01f);
                     }
                     else {
-                        System.Windows.Forms.MessageBox.Show("Nivel maximo atingido");                   
+                        System.Windows.Forms.MessageBox.Show("Nivel maximo atingido");
+                        xp = xpcap - 1;
                     }
-                }              
+                }         
                 return xpcap;
            }
         }

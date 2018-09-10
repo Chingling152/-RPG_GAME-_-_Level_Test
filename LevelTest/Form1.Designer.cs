@@ -103,7 +103,7 @@
             // lbl_P
             // 
             this.lbl_P.AutoSize = true;
-            this.lbl_P.Location = new System.Drawing.Point(627, 10);
+            this.lbl_P.Location = new System.Drawing.Point(628, 9);
             this.lbl_P.Name = "lbl_P";
             this.lbl_P.Size = new System.Drawing.Size(76, 26);
             this.lbl_P.TabIndex = 1;
@@ -175,7 +175,7 @@
             // lbl_PV_
             // 
             this.lbl_PV_.AutoSize = true;
-            this.lbl_PV_.Location = new System.Drawing.Point(155, 119);
+            this.lbl_PV_.Location = new System.Drawing.Point(155, 121);
             this.lbl_PV_.Name = "lbl_PV_";
             this.lbl_PV_.Size = new System.Drawing.Size(39, 26);
             this.lbl_PV_.TabIndex = 10;
@@ -555,7 +555,7 @@
             this.btn_menos_for.TabIndex = 50;
             this.btn_menos_for.Text = "-";
             this.btn_menos_for.UseVisualStyleBackColor = true;
-            this.btn_menos_for.Click += new System.EventHandler(this.btn_menos_for_Click);
+            this.btn_menos_for.Click += new System.EventHandler(this.Btn_menos_for_Click);
             // 
             // btn_mais_dex
             // 
@@ -566,6 +566,7 @@
             this.btn_mais_dex.TabIndex = 53;
             this.btn_mais_dex.Text = "+";
             this.btn_mais_dex.UseVisualStyleBackColor = true;
+            this.btn_mais_dex.Click += new System.EventHandler(this.Btn_mais_dex_Click);
             // 
             // btn_menos_dex
             // 
@@ -576,6 +577,7 @@
             this.btn_menos_dex.TabIndex = 52;
             this.btn_menos_dex.Text = "-";
             this.btn_menos_dex.UseVisualStyleBackColor = true;
+            this.btn_menos_dex.Click += new System.EventHandler(this.Btn_menos_dex_Click);
             // 
             // button5
             // 
@@ -586,6 +588,7 @@
             this.button5.TabIndex = 55;
             this.button5.Text = "+";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // button6
             // 
@@ -596,6 +599,7 @@
             this.button6.TabIndex = 54;
             this.button6.Text = "-";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.Button6_Click);
             // 
             // button7
             // 
@@ -606,6 +610,7 @@
             this.button7.TabIndex = 57;
             this.button7.Text = "+";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
             // button8
             // 
@@ -616,6 +621,7 @@
             this.button8.TabIndex = 56;
             this.button8.Text = "-";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.Button8_Click);
             // 
             // button9
             // 
@@ -626,6 +632,7 @@
             this.button9.TabIndex = 59;
             this.button9.Text = "+";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
             // 
             // button10
             // 
@@ -636,6 +643,7 @@
             this.button10.TabIndex = 58;
             this.button10.Text = "-";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.Button10_Click);
             // 
             // lbl_PPTS
             // 
